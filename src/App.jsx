@@ -12,6 +12,7 @@ export function App() {
                     console.log("Hello");
                 }}
                 image={<img src="https://picsum.photos/500/300" alt="random" />}
+                isSunny={true}
             />
         </>
 	);
