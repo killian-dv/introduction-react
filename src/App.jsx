@@ -3,11 +3,14 @@ import { Greetings } from "./components/Greetings/Greetings";
 import "./style.css";
 
 export function App() {
+    function hello(number) {
+        alert("Hello de <App />" + number);
+    }
     return (
         <>
             <div>
-                <Car />
-                <Greetings />
+                Je suis {"<App />"}
+                <Car onCarClick={hello} />
             </div>
         </>
 	);

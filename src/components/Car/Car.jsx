@@ -1,5 +1,11 @@
-export function Car (){
+export function Car (props){
+    function onClick(){
+        props.onCarClick(2)
+    }
     return (
-        <p className="box box2">je suis une voiture</p>
+        <div>
+            je suis {"<Car />"}
+            <button onClick={onClick}>Click</button>
+        </div>
     )
 }
