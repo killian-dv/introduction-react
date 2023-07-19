@@ -1,10 +1,11 @@
 import { Greetings } from "./Greetings";
+import { AgeCounter } from "./AgeCounter";
 
 export function App() {
     return (
         <>
             <h1>Hello to the React World</h1>
-            <Greetings 
+            {/* <Greetings 
                 firstName={"Rachel"}
                 age={25}
                 car={{color: "red", brand: "BMW"}}
@@ -13,7 +14,8 @@ export function App() {
                 }}
                 image={<img src="https://picsum.photos/500/300" alt="random" />}
                 isSunny={true}
-            />
+            /> */}
+            <AgeCounter />
         </>
 	);
 }
